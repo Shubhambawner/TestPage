@@ -1,5 +1,21 @@
+import SliderCarousel from "../components/SliderCarousel";
+import Card from "../components/Card";
+
 const Home = () => {
-  return <h1>Home</h1>;
+    return (
+        <div>
+            <h1>Home</h1>
+            <SliderCarousel>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+            </SliderCarousel>
+
+
+        </div>
+    )
 };
 
 export default Home;
