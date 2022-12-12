@@ -1,5 +1,6 @@
 import SliderCarousel from "../components/SliderCarousel";
 import Card from "../components/Card";
+import Form from "../components/Form";
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                 <Card />
                 <Card />
             </SliderCarousel>
-
+        <Form/>
 
         </div>
     )

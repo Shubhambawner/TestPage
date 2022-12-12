@@ -83,7 +83,8 @@ const SliderCarousel = ({ children }) => {
                 element.current.style.zIndex = `${(mid_zIndex - Math.abs(i * unit_Zindex))}`
             }
 
-            rotateLeft(cardDOMArray)
+            rotateRight(cardDOMArray)
+            // rotateLeft(cardDOMArray)
 
         }, SPEED * 1000)
 
